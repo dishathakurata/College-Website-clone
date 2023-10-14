@@ -1,0 +1,129 @@
+.logo{
+    height: 80px;
+}
+
+.bg-image{
+    height: 86.5vh;
+    width: 100%;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    background-size: cover;
+}
+
+.bg-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.bg-text h3{
+    font-size: 58px;
+    color: black;
+    font-weight: 700px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px white;
+}
+
+.bg-text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 0 0 5px white;
+}
+
+.bg-text h5{
+    color: rgb(40, 40, 174);
+    text-shadow: 0 0 5px white;
+}
+
+.bg-text h6{
+    color: red;
+    text-shadow: 0 0 5px white;
+}
+
+.row{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.featurette1{
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.featurette2 .featurette-heading{
+    text-align: end;
+    margin-top: 10px;
+}
+
+.featurette3 .featurette-heading{
+    text-align: start;
+    margin-top: 10px;
+}
+
+hr{
+    color: rgb(62, 62, 199);
+    border-top: 5px dotted;
+}
+
+.sidebar{
+    position: fixed;
+}
+
+.grid-container{
+    display: grid;
+    gap: 50px;
+}
+
+.item1{
+    text-align: center;
+    background-color: beige;
+}
+
+.item2{
+    text-align: center;
+    background-color: lightblue;
+}
+
+.item3{
+    background-color: rgb(187, 218, 125);
+}
+
+.list{
+    text-align: start;
+}
+
+#footer{
+    background-color: rgb(38, 38, 116);
+    margin-top: 50px;
+}
+
+#footer h5{
+    color: white;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 100;
+    width: 50%;
+}
+
+#footer .bold{
+    font-weight: bold;
+}
+
+#footer .navb{
+    background-color: grey;
+}
+
+#footer li{
+    color: white;
+}
